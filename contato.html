@@ -3,9 +3,12 @@
 
 	<head>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
 		<title>Contatos - Barbearia Alura</title>
 		<link rel="stylesheet" href="reset.css">
 		<link rel="stylesheet" href="style.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 	</head>
 
 	<body>
@@ -35,7 +38,7 @@
 				<label for="mensangem">Mensagem</label>
 				<textarea cols="72" rows="10" id="mensangem" class="input-padrao" required></textarea>
 
-				<fieldset>
+				<fieldset class="preferecia-contato">
 					<legend>Como prefere nosso contato?</legend>
 
 					<label for="radio-email">
@@ -54,8 +57,8 @@
 					</label>
 				</fieldset>
 				<fieldset>
-					<p>Qual horário prefere ser atendido?</p>
-					<select>
+					<legend>Qual horário prefere ser atendido?</legend>
+					<select class="horário-prefere">
 						<option>Manhã</option>
 						<option>Tarde</option>
 						<option>Noite</option>
@@ -71,8 +74,8 @@
 			<table>
 				<thead>
 					<tr></tr>
-						<th>Dia</th>
-						<th>Horário</th>
+					<th>Dia</th>
+					<th>Horário</th>
 				</thead>
 				<tbody>
 					<tr></tr>
@@ -85,10 +88,9 @@
 						<td>Sexta</td>
 					<td>8h -20H</td>
 					<tr>
-    			</tbody>
+	    		</tbody>
 			</table>
 		</main>
-
 		<footer>
 			<img src="logo-branco.png" alt="Logo da Barbearia Alura">
 			<p class="Copyright">&copy; Copyright Barbearia Alura - 2019</p>
